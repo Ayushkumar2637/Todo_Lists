@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+body {
+  background-color: rgb(192, 232, 255);
+  position: relative;
+}
+
+.container {
+  width: 40vw;
+  height: 80vh;
+  background-color: rgb(132, 202, 243);
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  text-align: center;
+  overflow: auto;
+}
+
+.inputArea {
+  padding: 15px;
+  /* height: 5%; */
+  justify-content: center;
+  gap:15px
+}
+
+.inputArea > input::placeholder {
+  color:rgb(205, 197, 197)
+}
+
+.inputArea > input {
+  width: 70%;
+  padding: 7px;
+  border-radius: 15px;
+  background-color: #915fce;
+  color: rgb(245, 240, 244);
+}
+
+.inputArea > button {
+  background-color: #8a8af9;
+}
+
+.inputArea > button:disabled {
+  background-color: #9292eb;
+}
+
+.sepration {
+  border: 1px solid black;
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.save > input {
+  margin: 0 10px 0 0;
+}
+
+.save {
+  margin-right: 30px;
+  justify-content:end;
+  font-weight:550;
+}
+
+.todos {
+  /* border: 2px solid black; */
+  align-items: center;
+  margin: 5px 15px;
+  padding: 5px;
+}
+
+.cont1 , .cont2 {
+  width: 50%;
+  gap: 20px;
+}
+
+.cont1 {
+  text-align: left;
+}
+
+.cont2 > button {
+  padding: 3px 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    /* Below code is for learning purpose */
+    /* background-color: rgb(255, 192, 212) !important; */
+
+    width: 95vw;
+  }
+}

@@ -1,0 +1,18 @@
+.flex {
+    display: flex;
+}
+
+.lineThrough {
+    text-decoration-line: line-through;
+}
+
+.notLineThrough {
+    text-decoration-line: none;
+}
+
+.buttonDesign {
+    color: black;
+    font-weight: 500;
+    padding: 5px 15px;
+    border-radius: 15px;
+}

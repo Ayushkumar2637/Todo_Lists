@@ -1,0 +1,8 @@
+.foot {
+    background-color: rgb(114, 151, 205);
+    position:fixed;
+    bottom: 0;
+    width: 100vw;
+    justify-content: space-around;
+    padding: 5px;
+}
